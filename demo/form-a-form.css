@@ -1,0 +1,27 @@
+body            { font-family: arial, verdana, helvetica, sans-serif; font-size: small; color: Navy; line-height: 1.3; }
+p               { font-family: arial, verdana, helvetica, sans-serif; font-size: small; color: Navy; }
+td              { font-family: arial, verdana, helvetica, sans-serif; font-size: small; color: Navy; }
+a               { color: #0000FF; text-decoration: none; }
+a:visited       { color: #3344FF; text-decoration: none; }
+a:hover         { color: #CC0033; text-decoration : underline; background-color:#E6E9FE; }
+small.fade      { font-size : small; color: #CC9999; }
+small.xg        { font-size : small; color: gray; }
+strong.m        { color : Maroon; }
+strong.x        { color : Maroon; font-size: x-small; }
+div             { font-size: small; }
+button          { cursor: pointer; }
+ol              { font-family: arial, verdana, helvetica, sans-serif; font-size: small; color: Navy; line-height: 1.6; }
+ul              { font-family: arial, verdana, helvetica, sans-serif; font-size: small; color: Navy; line-height: 1.6; }
+h1              { font-family: arial, verdana, helvetica, sans-serif; font-size: medium; color: Maroon; font-weight : bold; margin : 0.5rem 0; }
+h2              { font-family: arial, verdana, helvetica, sans-serif; font-size: medium; color: Navy; font-weight : bold; margin : 0.5rem 0; }
+h3              { font-family: arial, verdana, helvetica, sans-serif; font-size: medium; color: Maroon; font-weight : bold; margin : 0 0 5px; }
+h4              { font-family: arial, verdana, helvetica, sans-serif; font-size: small; color: Maroon; font-weight : bold; margin : 0.5rem 0; }
+h5              { font-family: arial, verdana, helvetica, sans-serif; font-size: small; color: Blue; font-weight : normal; margin : 0.5rem 0; }
+input,
+select          { margin: .5rem 0 .3rem; height: 1.5rem; }
+.table-links    { line-height: 1.6; }
+.hide,
+.hidden         { display: none; }
+.kdc-logo-td    { vertical-align: top; text-align: right; }
+.kdc-logo-a     { position: relative; display: block; }
+.kdc-logo-a img { position: absolute; right: 0; top: 0; }
