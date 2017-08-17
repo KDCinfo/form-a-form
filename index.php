@@ -36,8 +36,9 @@
 	<table width="750" border="0" cellspacing="0" cellpadding="3" align="center">
 		<tr>
 			<td colspan="3">
-				<p><h3>Welcome to the quick and simple Form-a-Form creator for PHP!</h3></p>
-				<p>The form-a-form will allow you to create a form that you can use as a template, or rather, as a really great start for your forms.
+				<h3>Welcome to the quick and simple Form-a-Form creator for PHP!</h3>
+				<h4>Form-a-Form is live again, as of August 17, 2017, and is now open to Everyone!</h4>
+				<p>Form-a-Form will allow you to create a form that you can use as a template, or rather, as a really great start for your forms.
 					It not only generates the HTML code for the form, but generates the PHP query aspects of the form as well.
 					It is quite simply to get you started, and get all the monotonous and boring form tags setup stuff out of the way up front,
 					allowing you to concentrate more on the analytical design concept and form tweaking instead.</p>
@@ -63,8 +64,9 @@
 		<tr><td colspan="3"><hr color="Maroon" size="1"></td></tr>
 		<tr><td valign="top">
 			<p>
-				<h3>Cost for the use of Form-a-Form:<br/>
-					<span class="text-right">Free! <span class="text-normal">(it's open source)</span></span></h3>
+				<h3 class="text-center">Cost for using Form-a-Form:<br/>
+					<span>Free! <small class="text-normal">(it's open source)</small></span>
+				</h3>
 				<?
 					if ((strtotime("2005-08-01") - strtotime(date("Y-m-d"))) / (60 * 60 * 24) == 1)
 					{ $daysleft = "1 day"; } else { $daysleft = (strtotime("2005-08-01") - strtotime(date("Y-m-d"))) / (60 * 60 * 24) . " days"; }
