@@ -30,11 +30,13 @@ if (isset($_POST["steps"]))
 }	else { echo "<body>"; }
 </script>
 
+<?php if (strpos($_SERVER['HTTP_HOST'], 'kdcinfo') !== false) { ?>
 <script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
 <script type="text/javascript">
 _uacct = "UA-1872941-1";
 urchinTracker();
 </script>
+<?php } ?>
 
 <script language="php">
 if ((isset($_POST["steps"])) && ($_POST["steps"] == "PartOne")) {

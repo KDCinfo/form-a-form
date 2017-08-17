@@ -43,10 +43,12 @@
 		<small class="xg">Keith D Commiskey (c)2005 | <a href="https://kdcinfo.com" target="GFY_Pops">https://kdcinfo.com</a></small>
 	</td></tr>
 </table>
+<?php if (strpos($_SERVER['HTTP_HOST'], 'kdcinfo') !== false) { ?>
 <script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
 <script type="text/javascript">
 _uacct = "UA-1872941-1";
 urchinTracker();
 </script>
+<?php } ?>
 </body>
 </html>

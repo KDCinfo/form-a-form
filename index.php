@@ -62,7 +62,9 @@
 			</form>
 		<tr><td colspan="3"><hr color="Maroon" size="1"></td></tr>
 		<tr><td valign="top">
-			<p><h3>Cost for the use of Form-a-Form:</h3>
+			<p>
+				<h3>Cost for the use of Form-a-Form:<br/>
+					<span class="text-right">Free! <span class="text-normal">(it's open source)</span></span></h3>
 				<?
 					if ((strtotime("2005-08-01") - strtotime(date("Y-m-d"))) / (60 * 60 * 24) == 1)
 					{ $daysleft = "1 day"; } else { $daysleft = (strtotime("2005-08-01") - strtotime(date("Y-m-d"))) / (60 * 60 * 24) . " days"; }
@@ -70,7 +72,7 @@
 				<table cellpadding="0" cellspacing="0" border="0">
 					<tr>
 						<td valign="top" colspan="3">
-							<p>I am looking to open-source this code on GitHub. Please stay tuned... (looking to have it up before end of August 2017.)</p>
+							<p>I have open-sourced this code on GitHub: <a href="https://github.com/KDCinfo/form-a-form">https://github.com/KDCinfo/form-a-form</a></p>
 							<p>Additionally, I have opened up this online form generator to the general public (effective August 17, 2017).</p>
 							<p><b>Click the `<?= $createFormText ?>` button above to begin generating your own form.</b></p>
 							<p>Thanks,<br/>
@@ -159,11 +161,13 @@
 			<small class="xg">Keith D Commiskey (2005; 2017) | <a href="//kdcinfo.com">https://kdcinfo.com</a></small>
 		</td></tr>
 	</table>
+<?php if (strpos($_SERVER['HTTP_HOST'], 'kdcinfo') !== false) { ?>
 <script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
 <script type="text/javascript">
 _uacct = "UA-1872941-1";
 urchinTracker();
 function submitIt(){var codeV=document.getElementById('code').value;if(codeV.toUpperCase()==codeIV){document.getElementById('codeErrD2').style.display="none";document.getElementById('sendItForm').action='/cgi-bin/FormMail.pl';return true;}else{document.getElementById('codeErrD2').style.display="block";document.getElementById('sendItForm').action='';return false;}}
 </script>
+<?php } ?>
 </body>
 </html>
